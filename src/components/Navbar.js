@@ -39,7 +39,7 @@ const NavbarWrapper = styled.nav`
   .navbar-brand{
     font-size: 23px;
     span{
-      color: var(--clr-#0000D1);
+      color: var(--clr-blue);
     }
   }
   .cart-btn{
@@ -47,7 +47,7 @@ const NavbarWrapper = styled.nav`
     font-size: 23px;
     position: relative;
     .item-count-badge{
-      background-color: var(--clr-#5C5CFF);
+      background-color: var(--clr-violet);
       position: absolute;
       right: -10px;
       top: -10px;
