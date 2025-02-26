@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='container w-100'>
         <div className='brand-and-toggler flex flex-between w-100'>
           <Link to = "/" className='navbar-brand text-uppercase ls-1 fw-8'>
-            <span>c</span>oursean
+            <span>R</span>eSkill
           </Link>
 
           <div className='navbar-btns flex'>
@@ -39,7 +39,7 @@ const NavbarWrapper = styled.nav`
   .navbar-brand{
     font-size: 23px;
     span{
-      color: var(--clr-orange);
+      color: var(--clr-#0000D1);
     }
   }
   .cart-btn{
@@ -47,7 +47,7 @@ const NavbarWrapper = styled.nav`
     font-size: 23px;
     position: relative;
     .item-count-badge{
-      background-color: var(--clr-orange);
+      background-color: var(--clr-#5C5CFF);
       position: absolute;
       right: -10px;
       top: -10px;
